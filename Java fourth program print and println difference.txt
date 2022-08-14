@@ -1,0 +1,7 @@
+public class Main {
+    public static void main(String [] args){
+        System.out.print("Hello World! ");
+        System.out .print("This will be written on the same line. ");
+        System.out.print("It shows the difference between print and println.");
+    }
+}
