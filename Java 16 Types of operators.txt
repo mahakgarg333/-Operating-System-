@@ -1,0 +1,14 @@
+public class Main{
+    public static void main(String args[]){
+    int x = 5;
+    int y = 10;
+    System.out.println(x+y);//arithmetic operator
+    System.out.println(x-y);
+    System.out.println(x*y);
+    System.out.println(++x);
+    System.out.println(--x);
+    System.out.println(x>>=3);//assignment operator
+    System.out.println(x==y);//comparision operator
+    System.out.println(x<5 && x<10);// logical operator
+    }
+}
