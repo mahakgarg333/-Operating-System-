@@ -1,0 +1,11 @@
+public class Main{
+    public static void main(String[] args){
+    final int mynum= 20;
+    mynum=30; // it will generate an error as we used final keyword which means unchangeable
+    float myfloat = 7.99f;
+    char myletter = 'A';
+    boolean mybool = false;
+    String myText = "MANAS";
+    System.out.println(mynum);
+    }
+}
