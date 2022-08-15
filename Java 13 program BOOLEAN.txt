@@ -1,0 +1,9 @@
+public class Main{
+    public static void main(String args[]){
+        //using boolean keyword
+        boolean isManasgoodboy = false;
+        boolean isMahakgoodgirl = true;
+        System.out.println(isManasgoodboy); //outputs false
+        System.out.println(isMahakgoodgirl); //output true
+    }
+}
