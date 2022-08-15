@@ -1,0 +1,9 @@
+public class Main{
+    public static void main(String args[]){
+        char myResult = 'A';
+        System.out.println(myResult);
+        String greeting = "Hello!";
+        String myname = " My name is MAHAK GARG.";
+        System.out.println(greeting + myname);
+    }
+}
