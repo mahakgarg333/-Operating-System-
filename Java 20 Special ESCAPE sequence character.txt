@@ -1,0 +1,10 @@
+public class Main{
+    public static void main(String args[]){
+        String txt =  "We are \rproud \"Indians\". \n";
+        System.out.println(txt);
+        String a =  "\tWho\'s at the door anymore?\f\n ";
+        System.out.println(a);
+        String omg = "This is a \\ backlash sign";
+        System.out.println(omg);
+    }
+}
