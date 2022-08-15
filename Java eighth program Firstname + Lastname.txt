@@ -1,0 +1,8 @@
+public class Main{
+    public static void main(String []args){
+        String fname = "Mahak";
+        String lname = " Garg";
+        String fullname = fname + lname;
+        System.out.println(fullname);
+    }
+}
