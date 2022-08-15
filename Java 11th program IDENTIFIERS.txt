@@ -1,0 +1,8 @@
+public class Main{
+    public static void main(String [] args){
+        int nonleapyeardays = 365;
+        int a = 365;
+        System.out.println(nonleapyeardays);
+        System.out.println(a);
+    }
+}
