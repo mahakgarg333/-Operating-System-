@@ -1,0 +1,8 @@
+public class Main{
+    public static void main(String args[]){
+    int time = 100;
+    String result;
+    result = (time<50) ? "Hello" : "Bye";
+    System.out.println(result);
+    }
+}
