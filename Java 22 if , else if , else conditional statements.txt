@@ -1,0 +1,14 @@
+public class Main {
+    public static void main(String args[]){
+        int x = 80;
+        int y = 30;
+        if(x > y) {
+            System.out.println("x is greater than y");
+        }else if(y < x) {
+            System.out.println("y is less than x");
+        }else{
+            System.out.println("x is less than y");
+        }
+        
+    }
+}
