@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class Percentage {
+    public static void main(String args[]){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your phy marks: ");
+        float phy = sc.nextFloat();
+        System.out.println("Enter your chem marks: ");
+        float chem = sc.nextFloat();
+        System.out.println("Enter your eng marks: ");
+        float eng = sc.nextFloat();
+        System.out.println("Enter your math marks: ");
+        float math = sc.nextFloat();
+        System.out.println("Enter your computer marks: ");
+        float computer = sc.nextFloat();
+        float percentage = ((phy+chem+eng+math+computer)/500.0f)*100;
+        System.out.println(percentage);
+    }
+}
