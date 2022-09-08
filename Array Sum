@@ -1,0 +1,10 @@
+public class DecimalArray {
+    public static void main(String args[]){
+        float[] arr = {46.7f, 33.5f, 100.0f, 35.0f, 65.5f};
+        float sum = 0.0f;
+        for(float element:arr){
+            sum = sum + element;
+        }
+        System.out.println(sum);
+    }
+}
