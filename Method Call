@@ -1,0 +1,8 @@
+public class Joke {
+    static void tellJoke(){
+        System.out.println("Knock! Knock!");
+    }
+    public static void main(String args[]){
+        tellJoke();
+    }
+}
