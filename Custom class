@@ -1,0 +1,32 @@
+class Employee{
+    int id;
+    int salary;
+    String name;
+    public void printDetails(){
+        System.out.println(id);
+        System.out.println(name);
+    }
+    public int getSalary(){
+        return salary;
+    }
+}
+public class custom_class{
+    public static void main(String args[]){
+        System.out.println("This is our costum class");
+        Employee harry = new Employee();
+        Employee john = new Employee();
+
+        harry.id = 12;
+        harry.salary = 34;
+        harry.name = "Codewithharry";
+
+        john.id = 17;
+        john.salary = 12;
+        john.name = "John Khandelwal";
+
+        harry.printDetails();
+        john.printDetails();
+        int salary = john.getSalary();
+        System.out.println(salary);
+    }
+}
